@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Products from './pages/Products'
+import ProductDetail from './pages/ProductDetail'
 
 export default function App() {
   const handleAddToCart = (product) => {
@@ -13,6 +14,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Products onAdd={handleAddToCart} />} />
+          <Route path="/producto/:id" element={<ProductDetail onAdd={handleAddToCart} />} />
           <Route path="/carrito" element={<h2 style={{ padding: '2rem' }}>Carrito (en construcción)</h2>} />
           <Route path="/favoritos" element={<h2 style={{ padding: '2rem' }}>Favoritos (en construcción)</h2>} />
         </Routes>

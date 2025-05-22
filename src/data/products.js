@@ -60,4 +60,21 @@ export const products = [
     image: 'https://picsum.photos/seed/backpack/300/200',
     rating: 5,
   },
+  {
+  id: 9,
+  name: 'PowerSun Pro',
+  price: 199.99,
+  discountPrice: 159.99,
+  image: 'https://picsum.photos/seed/powersun/300/200',
+  images: [
+  'https://picsum.photos/seed/p1/600/400',
+  'https://picsum.photos/seed/p2/600/400',
+  'https://picsum.photos/seed/p3/600/400',
+  'https://picsum.photos/seed/p4/600/400',
+  'https://picsum.photos/seed/p5/600/400',
+  'https://picsum.photos/seed/p6/600/400'
+  ],
+  rating: 4
+}
+
 ]
