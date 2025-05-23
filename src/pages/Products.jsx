@@ -1,5 +1,7 @@
 import ProductCard from '../components/ProductCard'
 import { products } from '../data/products'
+import '../styles/products.css'  // revisa que el nombre coincida
+
 
 export default function Products({ onAdd }) {
   return (

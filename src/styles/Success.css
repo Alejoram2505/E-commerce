@@ -1,0 +1,28 @@
+.success-container {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.success-icon {
+  font-size: 4rem;
+  color: green;
+  margin-bottom: 1rem;
+}
+
+.success-btn {
+  display: inline-block;
+  background-color: #1f3d2b;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.success-btn:hover {
+  background-color: #163021;
+}

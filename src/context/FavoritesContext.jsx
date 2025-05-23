@@ -12,7 +12,7 @@ export function FavoritesProvider({ children }) {
       ? favoritesRef.current.filter(favId => favId !== id)
       : [...favoritesRef.current, id]
 
-    forceUpdate(n => n + 1) // 🔁 Forzamos un render para actualizar la UI
+    forceUpdate(n => n + 1) 
   }
 
   const isFavorite = (id) => {
