@@ -5,22 +5,22 @@ export const products = [
     price: 89.99,
     discount: 119.99,
     image: 'https://placehold.co/200x200',
-    stars: 4
+    rating: 2
   },
   {
     id: 2,
     name: 'NomadPack 30L',
     price: 119.0,
     image: 'https://placehold.co/200x200',
-    stars: 5
+    rating: 1
   },
   {
     id: 3,
     name: 'TrailCharge Mini',
     price: 49.5,
     discount: 69.99,
-    image: 'https://via.placeholder.com/150',
-    stars: 3
+    image: 'https://placehold.co/200x200',
+    rating: 2
   },
   {
     id: 4,
