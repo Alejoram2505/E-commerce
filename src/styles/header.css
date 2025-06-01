@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1f3d2b; 
+  color: white;
+}
+
+.header-left,
+.header-center,
+.header-links {
+  flex: 1;
+  text-align: center;
+}
+
+.header-left {
+  text-align: left;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.header-links {
+  text-align: right;
+}
+
+.header-links a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #a8ff60
+}
