@@ -133,3 +133,29 @@
   font-weight: bold;
   text-align: center;
 }
+
+
+@media (max-width: 768px) {
+  .cart-table table,
+  .cart-table thead {
+    display: none;
+  }
+
+  .cart-table tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cart-table tr {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #ddd;
+  }
+
+  .qty-buttons button {
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+  }
+}
